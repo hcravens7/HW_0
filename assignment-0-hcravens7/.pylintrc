@@ -1,0 +1,24 @@
+# .pylintrc
+[MAIN]
+# Keep pylint beginner-friendly for Assignment 0.
+# We will use stricter settings later in the course.
+
+[MESSAGES CONTROL]
+# Turn off rules that are noisy for beginners or irrelevant for this assignment.
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    invalid-name,
+    too-few-public-methods,
+    too-many-locals,
+    too-many-arguments,
+    too-many-branches,
+    too-many-statements,
+    too-many-return-statements,
+    too-many-instance-attributes,
+    too-many-public-methods,
+    too-many-lines
+
+[REPORTS]
+# Do not show the numeric pylint score (confusing early on)
+# score=no
