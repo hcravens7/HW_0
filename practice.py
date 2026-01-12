@@ -1,6 +1,6 @@
 # Paste your pytest output summary line below after running `pytest`
 # pytest output: ================================ 4 passed in 0.01s ===============================
-# Your code has been rated at 10.00/10 (previous run: 9.50/10, +0.50)
+# pylint score: 10
 
 from __future__ import annotations
 
